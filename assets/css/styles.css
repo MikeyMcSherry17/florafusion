@@ -52,6 +52,7 @@ header nav ul li a {
 .hero h1 {
     font-size: 48px;
     font-weight: bold;
+    color: #2e7d32; /* Same green as the button */
 }
 
 .hero p {
