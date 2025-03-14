@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fafafa;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+
+
+
+/* Hero Section */
+.hero {
+    background: url('../images/hero-image.jpg') no-repeat center center/cover;
+    padding: 150px 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #2e7d32; /* Same green as the button */
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.btn-primary {
+    background-color: #2e7d32;
+    color: #ffffff;
+    padding: 14px 28px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #1b5e20;
+}
+
+/* Products Section */
+.product-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #2e7d32;
+    padding: 12px 24px;
+    border: 1px solid #2e7d32;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #2e7d32;
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    background-color: #2e7d32;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
